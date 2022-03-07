@@ -45,7 +45,7 @@ int Rcount(struct node *p)
         return 0;
     }
     else{
-        return Rcount(p->next)+1;
+        return Rcount(p->next)+1;   //1 will be added while going back 
     }
 }
 
