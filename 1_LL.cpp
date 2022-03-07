@@ -12,7 +12,7 @@ void create(int a[],int n)
     struct node *t, *last;
     first=new node;
 
-    first->data=a[0];
+    first->data=a[0];   //first node
     first->next=NULL;
     last=first;
 
