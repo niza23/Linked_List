@@ -41,8 +41,8 @@ void RRdisplay(struct node *p)
 {
     if(p!=NULL)
     {
-        RRdisplay(p->next);
-        cout<<"data is "<<p->data<<endl;
+        RRdisplay(p->next);   //first call the function
+        cout<<"data is "<<p->data<<endl;   //display while returning
         
     }
 }
