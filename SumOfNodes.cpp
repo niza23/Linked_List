@@ -30,7 +30,7 @@ void create(int a[],int n)
 
 int sum(struct node *p)
 {
-    int sum=0;
+    int sum=0;    //count total number of nodes
     while(p)
     {
         sum=sum+p->data;
