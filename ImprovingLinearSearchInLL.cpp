@@ -27,7 +27,7 @@ void create(int a[],int n)
     }
 
 }
-node *search(node *p, int key)  //Move to forward
+node *search(node *p, int key)  //Move search data to first
 {
     node *q=NULL;
     while(p)
