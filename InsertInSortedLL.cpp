@@ -37,7 +37,7 @@ void Sortedinsert(struct node *p,int x)
     t->data=x;
     t->next=NULL;
 
-    if(first==NULL)  //if first is null
+    if(first==NULL)  //if first is empty
     {
         first=t;
     }
