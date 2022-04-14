@@ -57,7 +57,7 @@ int del(struct node *p, int index)
     {
         return 0;
     }
-    if(index==1)   //first position
+    if(index==1)   //chechk first position
     {
         q=first;
         x=first->data;
