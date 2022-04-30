@@ -43,6 +43,7 @@ DoublyLinkedList :: DoublyLinkedList(int a[], int n)
     for(i=1;i<n;i++)
     {
         t= new node;
+        
         t->data=a[i];
         t->next=last->next;
         t->prev=last;
