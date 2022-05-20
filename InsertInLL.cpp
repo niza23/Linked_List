@@ -27,7 +27,7 @@ void create(int a[],int n)
     }
 
 }
-int count(struct node *p)   //to get length of LL
+int count(struct node *p)   //length of LL
 {
     int c=0;
     while(p)
