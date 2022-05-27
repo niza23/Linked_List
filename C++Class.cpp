@@ -61,7 +61,7 @@ LinkedList :: ~LinkedList()
     }
 }
 
-void LinkedList :: display()   // no need of parameter
+void LinkedList :: display()   // no need of parameter in c++
 {
     node *p=first;   //local pointer to first
     while(p)
