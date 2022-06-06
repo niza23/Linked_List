@@ -1,5 +1,6 @@
 #include<iostream>
 using namespace std;
+
 struct node
 {
     int data;
@@ -27,6 +28,7 @@ void create1(int a[],int n)
     }
 
 }
+
 void create2(int a[],int n)
 {
     int i;
