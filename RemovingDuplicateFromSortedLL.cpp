@@ -44,7 +44,7 @@ void RemoveDuplicate(struct node *p)
     {
         if(p->data!=q->data)
         {
-            p=q;  //move p to next
+            p=q;        //move p to next
             q=q->next;  //q to next(skip the same element)
         }
         else{
