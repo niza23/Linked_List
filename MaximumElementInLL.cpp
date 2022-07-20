@@ -57,7 +57,6 @@ int Rm(struct node *p)   //using recursion
         else{
             return p->data;
         }
-
     }
 }
 
