@@ -27,8 +27,6 @@ void create(int a[],int n)
         last->next=t;
         last=t;
     }
-
-
 }
 
 
