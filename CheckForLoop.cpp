@@ -25,7 +25,6 @@ void create(int a[],int n)
         last->next=t;
         last=t; 
     }
-
 }
 
 void display(struct node *p)
@@ -55,7 +54,6 @@ int isloop(struct node *f)
     else{
         return 0;
     }
-
 }
 
 int main()
